@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "location"
     t.integer "inventory"
     t.integer "number_of_employees"
-    t.boolean "active"
-    t.time "opening"
-    t.time "closing"
+    t.boolean "in_business"
+    t.datetime "opening_date"
+    t.datetime "closing_date"
     t.string "long_description"
   end
 
