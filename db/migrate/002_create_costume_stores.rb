@@ -1,4 +1,4 @@
-class CreateCostumeStores < ActiveRecord::Base
+class CreateCostumeStores < ActiveRecord::Migration[4.2]
 
   def change
     create_table :costume_stores  do |t|
@@ -9,6 +9,7 @@ class CreateCostumeStores < ActiveRecord::Base
       t.boolean :active
       t.time :opening
       t.time :closing
+      t.string :long_description
     end
   end
 
