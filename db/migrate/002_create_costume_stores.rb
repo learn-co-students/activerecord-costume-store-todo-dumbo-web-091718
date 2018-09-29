@@ -1,4 +1,4 @@
-class Create_costume_stores < ActiveRecord::Base
+class CreateCostumeStores < ActiveRecord::Base
 
   def change
     create_table :costume_stores  do |t|
@@ -12,4 +12,4 @@ class Create_costume_stores < ActiveRecord::Base
     end
   end
 
-end  
+end
